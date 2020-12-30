@@ -1068,6 +1068,7 @@ function CEPGP_rosterUpdate(event)
 			CEPGP_guild_decay:Show();
 			CEPGP_guild_reset:Show();
 			CEPGP_raid_add_EP:Show();
+			CEPGP_raid_decay_GP:Show();
 			CEPGP_button_guild_restore:Show();
 			CEPGP_button_guild_import:Show();
 		else --[[ Hides context sensitive options if player cannot edit officer notes ]]--
@@ -1075,6 +1076,7 @@ function CEPGP_rosterUpdate(event)
 			CEPGP_guild_decay:Hide();
 			CEPGP_guild_reset:Hide();
 			CEPGP_raid_add_EP:Hide();
+			CEPGP_raid_decay_GP:Hide();
 			CEPGP_button_guild_restore:Hide();
 			CEPGP_button_guild_import:Hide();
 		end
